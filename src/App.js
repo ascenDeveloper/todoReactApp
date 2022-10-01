@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import TodoCounter from './TodoCounter';
+import CreateTodoButton from './CreateTodoButton';
+import TodoSearch from './TodoSearch';
+import TodoList from './TodoList';
+import TodoItem from './TodoItem';
 
 const todos = [
   { text: 'Pelar cebolla', completed: false},
