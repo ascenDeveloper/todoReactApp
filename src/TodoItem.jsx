@@ -1,11 +1,14 @@
 import React from 'react'
 
-function TodoItem() {
+function TodoItem(props) {
     return (
-        <div>
-
-        </div>
+        <li>
+            <span>C</span>
+            <p>{props.text}</p>
+            <span>X</span>
+        </li>
     )
 }
 
-export default TodoItem
+export { TodoItem };
+

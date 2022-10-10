@@ -2,10 +2,8 @@ import React from 'react'
 
 function CreateTodoButton() {
     return (
-        <div>
-
-        </div>
+        <button>+</button>
     )
 }
 
-export default CreateTodoButton
+export { CreateTodoButton };

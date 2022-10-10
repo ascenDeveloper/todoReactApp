@@ -2,10 +2,8 @@ import React from 'react'
 
 function TodoSearch() {
     return (
-        <div>
-
-        </div>
+        <input placeholder='Cebolla' />
     )
 }
 
-export default TodoSearch
+export { TodoSearch };
